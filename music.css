@@ -1,0 +1,162 @@
+html, body, { position:fixed; top:0; bottom:0; left:0; right:0; }
+html,body, {overfow: hidden;}
+#bdy_music{
+background-color: #020033;
+background-image: url('gif/*11.gif');
+background-size: 100% 100%;
+}
+#post{
+display: block;
+border: 4px #d0d0d0 solid;
+padding: 5px 5px;
+font-size: 20px;
+background-color:#002640;
+text-align: center;	
+border-color: #77C490;
+border-rsdius:0%;
+color:green;
+font-weight: bold;
+user-select:none;
+-webkit-user-select:none;
+position:fixed;
+font: right;
+bottom: 650px;
+right: 200px;
+width:500px;
+}
+
+}
+#ctr{
+margin: 0px auto; 
+margin-left: auto;
+margin-right: auto;
+}
+#list.current-song{
+background-color:green;
+border:5px lime solid;
+box-shadow: 0 0 10px 10px lime;
+border-radius: 5px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+#ft_style{
+font-size: 20px;
+font-weight: bold;
+}
+#dwld{
+}
+#div{
+background-color: green;
+border:5px yellow solid;
+font-size: 20px;
+font-weight: bold;
+border-radius:30px;
+box-shadow:0 0 5px 5px blue;
+height:35px;
+color:yellow;
+}
+#width{
+width: 300px;
+}
+#btn{
+background-color: #002640;
+color: yellow;
+border-color: #00ff00;
+border-radius:30%;
+font-size: 20px;
+border-width: 5px;
+box-shadow: 0 0 2px 2px red; 
+box-shadow: 0 0 4px 4px #00ffff;
+width: 200px;
+user-select:none;
+-webkit-user-select:none;
+}
+#h1{
+font-size: 20px;
+text-align: center;	
+color:green;
+font-weight: bold;
+user-select:none;
+-webkit-user-select:none;
+}
+#hdr{
+background-color: green;
+border-top:5px #77c490 solid;
+border-bottom:5px #77c490 solid;
+border-left:5px #00ffff solid;
+border-right:5px #00ffff solid;
+height:125px;
+box-shadow:0 0 10px 10px green;
+animation-name: mainanime;
+animation-iteration-count: infinite;
+animation-duration: 2.5s;
+}
+#hr{
+border-color: #ffcc09;
+border-width: 5px;
+border-radius:50%;
+}
+#ftr{
+background-color:#002640;
+border-top:5px #77c490 solid;
+border-bottom:5px #77c490 solid;
+border-right:5px #00ffff solid;
+border-left:5px #00ffff solid;
+}
+#h3{
+color: #ffff00;
+user-select:none;
+-webkit-user-select:none;
+}
+#playlist{
+list-style: none;
+}
+#playlist li a{
+color:#01b9fd;
+text-decoration: none;
+font-weight: bold;       
+}
+#playlist .current-song a{
+color:yellow
+}
+#name_title{
+color:yellow;
+font-weight:bold;
+font-size: 50px;
+margin-top: -25px;
+}
+#wrap{
+width:325px;
+}
+#list.current-song {
+animation-name: colorswitch;
+animation-iteration-count: infinite;
+animation-duration: 2.5s;
+}
+@keyframes colorswitch {
+0% {background-color: green; box-shadow: 0 0 10px 10px green;}
+50% {background-color: red; box-shadow: 0 0 10px 10px red;}
+100% {background-color: green; box-shadow: 0 0 10px 10px green;}
+}
+@keyframes mainanime {
+0% {background-color: green;box-shadow:0 0 10px 10px green;}
+50%{background-color: black;box-shadow: 0 0 10px 10px black;}
+100%{background-color:  green;box-shadow:0 0 10px 10px green;}
+}
+#audioPlayer{
+position:static;
+display: block;
+width: 480px;
+height:480px;
+background-image:url('gif/*11.gif');
+background-size: cover;
+bottom: 100px;
+top:-50px;
+}
+#Disp_1{
+display: block;
+color:lime;
+font-size: 35px;
+font-weight:bold;
+bottom: 100px;
+}
